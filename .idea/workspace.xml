@@ -1,0 +1,2821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="重要类源代码说明" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="GPAMS:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../testgitJava/nomysqlback/autobackLast/src/main/java/com/doc/controller/CP_Class/CP_SystemController.java" description="System.out.println(system.toString());" line="84" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c9ba6ac-7b12-4f2d-ae92-d901955a6d09" name="Default" comment="" />
+    <ignored path="GPAMS.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/GPAMS$GPAMServer.ic" NAME="GPAMServer Coverage Results" MODIFIED="1524037315683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.rf.cms.server.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="GPAMS" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AposeExportController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/Controller/AposeExportController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DownLoadFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/Utils/DownLoadFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="97" column="36" lean-forward="false" selection-start-line="97" selection-start-column="36" selection-end-line="97" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AposeUtils.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/Utils/AposeUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="107" column="70" lean-forward="true" selection-start-line="107" selection-start-column="70" selection-end-line="107" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#844#864#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Document.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/aspose-words-16.8.0.jar!/com/aspose/words/Document.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="260" column="0" lean-forward="false" selection-start-line="260" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvocableHandlerMethod.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DispatcherServlet.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="469" column="0" lean-forward="false" selection-start-line="469" selection-start-column="0" selection-end-line="469" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MailMerge.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/aspose-words-16.8.0.jar!/com/aspose/words/MailMerge.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="120" column="29" lean-forward="false" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataTable.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/aspose-words-16.8.0.jar!/com/aspose/words/net/System/Data/DataTable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataTable.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/aspose-slides-19.6.jar!/com/aspose/slides/DataTable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#2160#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Chart.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/aspose-slides-19.6.jar!/com/aspose/slides/Chart.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="103" column="41" lean-forward="false" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sortFields</find>
+      <find>inserttask</find>
+      <find>Provincialapproval</find>
+      <find>getdepttask</find>
+      <find>ex</find>
+      <find>userid</find>
+      <find>呈批</find>
+      <find>getmattersignfeedbackcharttotal</find>
+      <find>insert</find>
+      <find>addCms</find>
+      <find>updateCms</find>
+      <find>经办人</find>
+      <find>下达</find>
+      <find>关注</find>
+      <find>addcms</find>
+      <find>getjdinfos</find>
+      <find>ssoWebUrl</find>
+      <find>rows</find>
+      <find>征求意见推进计划审核</find>
+      <find>排序</find>
+      <find>节点填报审核</find>
+      <find>getPageContent</find>
+      <find>file</find>
+      <find>downloadFileFromUrl</find>
+      <find>gettime</find>
+      <find>getpage</find>
+      <find>paragraphAlignmentValue</find>
+      <find>InputStream</find>
+      <find>Color</find>
+      <find>DataTable</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>\</replace>
+      <replace>ssoWebUrljk</replace>
+      <replace>ssoWebUrlJk</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\GPAMS\src\main\java\com\rf\cms\v3\rest</dir>
+    </dirStrings>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/taskwarn/package.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/server/package.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yc/Common.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yc/Home.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yc/Notice.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/dcReports/dcreports.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/filefinish/filefinish.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/newleader/package.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/notice/GetNotice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/unitview/unitview.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/handsituation/tasktjstatistical.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/newleader/newleader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yc/Task.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v9/dczq/jdinfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/indextaskinfo/indextaskinfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/supervisereport/supervisereport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/tools/toolsUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/indextaskinfo/leaderindextaskinfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/indexCount/indexcount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/upload/upload.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/userCon/UserCon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/RunThread/RunThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/qsData/QsData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v9/UserInfo/UserInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/setproject/setproject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/RunThread/HttpThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/attention/Indexattention.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v9/dczq/indexTotal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yc/Lead.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/alldown/alldown.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/attention/GetAttionData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/qtdwdtzshenhe/qtdwdtzshenhe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/zqyjshenhe/zqyjshenhe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/ShData/JdzdShDataList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/ShData/qtdwShDataList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/ShData/ZqyjShDataList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/dzdcCount/dzdcCount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/progressinfo/progressinfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/ShData/jdxxtbShDataList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/handsituation/handsituation.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-default.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/rest/taskstatistical.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/rest/UserRight.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/swagger/swaggerConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/rest/RestUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/Utils/DownLoadFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/Controller/AposeExportController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rf/cms/v3/Utils/AposeUtils.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="导入导出" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="导入导出" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="导入导出" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="重要类源代码说明" pattern="!src:com.rf.cms.v3.yzgrest.userrole.*&amp;&amp;!src:com.rf.cms.v3.yzgrest.enumfnial.Test.*&amp;&amp;!src:com.rf.cms.v3.yzgrest.userCon.*&amp;&amp;!src:com.rf.cms.v3.yzgrest.enumfnial.*&amp;&amp;!src:com.rf.cms.v3.yzgrest.taskview.*&amp;&amp;!src:com.rf.cms.v3.yzgrest.taskwarn.*&amp;&amp;!src:com.rf.cms.v3.yzgrest.taskcome.*&amp;&amp;!src:com.rf.cms.v3.yzgrest.attention.*&amp;&amp;!src:com.rf.cms.swagger.*&amp;&amp;!src:com.rf.cms.v3.v8.dzdcCount.*&amp;&amp;!src:com.rf.cms.v3.rest.R1RestAPI&amp;&amp;!src:com.rf.cms.v3.rest.taskstatistical&amp;&amp;!src:com.rf.cms.v3.rest.unifiedapproval&amp;&amp;!src:com.rf.cms.v3.rest.InspectorChosen&amp;&amp;!src:com.rf.cms.v3.v7.yc.Utils&amp;&amp;!src:com.rf.cms.v3.yzgrest.setproject.StandardWorkItemDTO&amp;&amp;!src:com.rf.cms.v3.yzgrest.setproject.WorkItemAction&amp;&amp;!src:com.rf.cms.v3.yzgrest.setproject.WorkItemInfo&amp;&amp;!src:com.rf.cms.v3.yzgrest.setproject.WorkItemViewField&amp;&amp;!src:com.rf.cms.v3.v7.yzg.upload.*&amp;&amp;!src:com.rf.cms.v3.v8.alldown.zqyjsend&amp;&amp;!src:com.rf.cms.v3.v7.yzg.tools.*" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1932" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aposepro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aposepro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aposepro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aposepro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aposepro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aposepro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aposepro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aposepro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aposepro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aposepro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aposepro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aposepro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aposepro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aposepro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aposepro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aposepro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aposepro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aposepro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aposepro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aposepro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aposepro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swagger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aposepro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aposepro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="gpams" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/aspose-words-16.8.0.jar!/" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="options.lastSelected" value="reference.settings.project.maven.repository.indices" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.30798194" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="SearchEverywhereHistoryKey" value="getDCJInfo&#9;PSI&#9;JAVA://com.rf.cms.v3.v7.yc.Task#getDCJInfo&#10;getDeptdcjInfo&#9;PSI&#9;JAVA://com.rf.cms.v3.v7.yzg.unitview.unitview#getDeptdcjInfo&#10;Provincialapproval&#9;PSI&#9;JAVA://com.rf.cms.v3.v7.yzg.indexCount.indexcount#Provincialapproval" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\aposepro\target\classes" />
+      <recent name="D:\Java\aposepro\src\main\resources" />
+      <recent name="D:\Java\aposepro\lib" />
+      <recent name="D:\我的工作\源代码\广东省项目\广州督查代码\后端\GPAMS2018-8-6\GPAMS\src\main\java\com\rf\cms\v3\yzgrest\taskwarn" />
+      <recent name="D:\我的工作\源代码\广东省项目\广州督查代码\后端\GPAMS2018-8-6\GPAMS\src\main\java\com\rf\cms\v3\yzgrest\taskview" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rf.cms.v3.Controller" />
+      <recent name="com.rf.cms.v3.rest.yzgrest.taskwarn" />
+      <recent name="com.rf.cms.v3.rest.yzgrest.userrole.thingsType" />
+      <recent name="com.rf.cms.swagger" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java\aposepro" />
+      <recent name="D:\Java\aposepro\src\main\resources" />
+      <recent name="D:\Work\yuzhenggang\weixinapp\GPAMS2018-7-25\GPAMS\src\main\resources\spring\appconfig" />
+      <recent name="D:\Work\yuzhenggang\weixinapp\GPAMS2018-7-25\GPAMS\src\main\java\com\rf\cms\MyBatis\Mapper\User" />
+      <recent name="D:\Work\yuzhenggang\weixinapp\GPAMS2018-7-25\GPAMS\src\main\resources\spring\MyBatis" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.GPAMServer">
+    <configuration default="false" name="TestTika.tool" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.rf.cms.v3.yzgrest.lucene.Tika.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="GPAMS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.rf.cms.v3.yzgrest.lucene.Tika" />
+      <option name="MAIN_CLASS_NAME" value="com.rf.cms.v3.yzgrest.lucene.Tika.TestTika" />
+      <option name="METHOD_NAME" value="tool" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestTika.testfiles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.rf.cms.v3.yzgrest.lucene.Tika.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="GPAMS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.rf.cms.v3.yzgrest.lucene.Tika" />
+      <option name="MAIN_CLASS_NAME" value="com.rf.cms.v3.yzgrest.lucene.Tika.TestTika" />
+      <option name="METHOD_NAME" value="testfiles" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Testhighlighter.Testhighlighter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.rf.cms.v3.yzgrest.lucene.highlighter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="GPAMS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.rf.cms.v3.yzgrest.lucene.highlighter" />
+      <option name="MAIN_CLASS_NAME" value="com.rf.cms.v3.yzgrest.lucene.highlighter.Testhighlighter" />
+      <option name="METHOD_NAME" value="Testhighlighter" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Testhighlighter.TestSearchByhighlighter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.rf.cms.v3.yzgrest.lucene.highlighter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="GPAMS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.rf.cms.v3.yzgrest.lucene.highlighter" />
+      <option name="MAIN_CLASS_NAME" value="com.rf.cms.v3.yzgrest.lucene.highlighter.Testhighlighter" />
+      <option name="METHOD_NAME" value="TestSearchByhighlighter" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="GPAMServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.rf.cms.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.rf.cms.server.GPAMServer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="GPAMS" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HEIGHT" value="0" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="WIDTH" value="0" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="false" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="GPAMS" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestTika.tool" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestTika.testfiles" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Testhighlighter.Testhighlighter" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Testhighlighter.TestSearchByhighlighter" />
+      <item index="4" class="java.lang.String" itemvalue="Application.GPAMServer" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.GPAMServer" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Testhighlighter.TestSearchByhighlighter" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Testhighlighter.Testhighlighter" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestTika.testfiles" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestTika.tool" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c9ba6ac-7b12-4f2d-ae92-d901955a6d09" name="Default" comment="" />
+      <created>1523930879245</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523930879245</updated>
+      <workItem from="1523930881551" duration="175000" />
+      <workItem from="1523931083780" duration="1654000" />
+      <workItem from="1523944735403" duration="263000" />
+      <workItem from="1523945056446" duration="132000" />
+      <workItem from="1523945242477" duration="305000" />
+      <workItem from="1523945607808" duration="2197000" />
+      <workItem from="1523948356169" duration="13760000" />
+      <workItem from="1524014922899" duration="4197000" />
+      <workItem from="1524019249906" duration="8860000" />
+      <workItem from="1524033460107" duration="4575000" />
+      <workItem from="1524038288249" duration="7633000" />
+      <workItem from="1524049082589" duration="1931000" />
+      <workItem from="1524051958693" duration="2670000" />
+      <workItem from="1524055407875" duration="697000" />
+      <workItem from="1524101255972" duration="10025000" />
+      <workItem from="1524124042249" duration="5786000" />
+      <workItem from="1524133581044" duration="4093000" />
+      <workItem from="1524187688786" duration="20056000" />
+      <workItem from="1524278947026" duration="13686000" />
+      <workItem from="1524305021026" duration="581000" />
+      <workItem from="1524445912938" duration="27294000" />
+      <workItem from="1524532550708" duration="29151000" />
+      <workItem from="1524619508940" duration="93000" />
+      <workItem from="1524619760342" duration="16004000" />
+      <workItem from="1524705173854" duration="14731000" />
+      <workItem from="1524792073324" duration="17218000" />
+      <workItem from="1524882368984" duration="1764000" />
+      <workItem from="1525225230061" duration="9686000" />
+      <workItem from="1525313005700" duration="5450000" />
+      <workItem from="1525398166727" duration="31141000" />
+      <workItem from="1525477984405" duration="77000" />
+      <workItem from="1525483922283" duration="21499000" />
+      <workItem from="1525530425541" duration="2937000" />
+      <workItem from="1525577198219" duration="26241000" />
+      <workItem from="1525656912774" duration="29430000" />
+      <workItem from="1525746464351" duration="14103000" />
+      <workItem from="1525772751047" duration="1876000" />
+      <workItem from="1525829891329" duration="34520000" />
+      <workItem from="1525916066562" duration="7851000" />
+      <workItem from="1525932918706" duration="24984000" />
+      <workItem from="1526002902816" duration="9678000" />
+      <workItem from="1526027149207" duration="12684000" />
+      <workItem from="1526091874387" duration="20603000" />
+      <workItem from="1526128932711" duration="255000" />
+      <workItem from="1526190439551" duration="77000" />
+      <workItem from="1526190721616" duration="8962000" />
+      <workItem from="1526261144179" duration="7808000" />
+      <workItem from="1526278710556" duration="4881000" />
+      <workItem from="1526283688951" duration="10342000" />
+      <workItem from="1526347599394" duration="21000000" />
+      <workItem from="1526384666179" duration="3575000" />
+      <workItem from="1526434588495" duration="22322000" />
+      <workItem from="1526521223798" duration="7001000" />
+      <workItem from="1526536908695" duration="13979000" />
+      <workItem from="1526607533108" duration="22328000" />
+      <workItem from="1526694040370" duration="2973000" />
+      <workItem from="1526699460375" duration="18254000" />
+      <workItem from="1526735313279" duration="392000" />
+      <workItem from="1526818492559" duration="950000" />
+      <workItem from="1526866195880" duration="21545000" />
+      <workItem from="1526953765692" duration="8175000" />
+      <workItem from="1526974051298" duration="10710000" />
+      <workItem from="1527039907735" duration="18000" />
+      <workItem from="1527040165128" duration="17140000" />
+      <workItem from="1527469144010" duration="937000" />
+      <workItem from="1527470873733" duration="244000" />
+      <workItem from="1527471619268" duration="8793000" />
+      <workItem from="1527497291084" duration="1722000" />
+      <workItem from="1527554192833" duration="7741000" />
+      <workItem from="1527642208571" duration="9174000" />
+      <workItem from="1527667208298" duration="5577000" />
+      <workItem from="1527727016554" duration="14160000" />
+      <workItem from="1528419668209" duration="53286000" />
+      <workItem from="1528849972189" duration="20456000" />
+      <workItem from="1528936375320" duration="22900000" />
+      <workItem from="1529454885576" duration="40356000" />
+      <workItem from="1529888260104" duration="26329000" />
+      <workItem from="1530239842615" duration="7503000" />
+      <workItem from="1530492049718" duration="1505000" />
+      <workItem from="1530498921066" duration="2685000" />
+      <workItem from="1530669819095" duration="18770000" />
+      <workItem from="1531098233822" duration="9409000" />
+      <workItem from="1531205406228" duration="17010000" />
+      <workItem from="1531356815181" duration="12166000" />
+      <workItem from="1531442792492" duration="11164000" />
+      <workItem from="1531702564844" duration="16823000" />
+      <workItem from="1531789346901" duration="10440000" />
+      <workItem from="1531875210015" duration="14781000" />
+      <workItem from="1531961661045" duration="10098000" />
+      <workItem from="1532048314132" duration="19741000" />
+      <workItem from="1532307861100" duration="12826000" />
+      <workItem from="1532485621052" duration="16569000" />
+      <workItem from="1532568766390" duration="16627000" />
+      <workItem from="1532660325258" duration="19141000" />
+      <workItem from="1532691327294" duration="9562000" />
+      <workItem from="1532741782279" duration="552000" />
+      <workItem from="1532743508919" duration="6414000" />
+      <workItem from="1532831816836" duration="1135000" />
+      <workItem from="1532835975607" duration="2249000" />
+      <workItem from="1532847012294" duration="20659000" />
+      <workItem from="1532914027040" duration="13000000" />
+      <workItem from="1532949890084" duration="989000" />
+      <workItem from="1532950932524" duration="1947000" />
+      <workItem from="1532958133985" duration="3787000" />
+      <workItem from="1533000671596" duration="17446000" />
+      <workItem from="1533086862524" duration="20830000" />
+      <workItem from="1533290703790" duration="2077000" />
+      <workItem from="1533294560452" duration="36000" />
+      <workItem from="1533520969755" duration="8846000" />
+      <workItem from="1533538422448" duration="11163000" />
+      <workItem from="1533550465485" duration="1352000" />
+      <workItem from="1533602163982" duration="2838000" />
+      <workItem from="1533608146854" duration="14177000" />
+      <workItem from="1533689387985" duration="10524000" />
+      <workItem from="1533777381357" duration="88000" />
+      <workItem from="1533778356970" duration="9806000" />
+      <workItem from="1533862291276" duration="7780000" />
+      <workItem from="1534121037770" duration="12386000" />
+      <workItem from="1534208536631" duration="9992000" />
+      <workItem from="1534233848669" duration="3384000" />
+      <workItem from="1534294792878" duration="17086000" />
+      <workItem from="1534383002684" duration="14091000" />
+      <workItem from="1534413713681" duration="1175000" />
+      <workItem from="1534415651156" duration="616000" />
+      <workItem from="1534729869298" duration="7973000" />
+      <workItem from="1534813273061" duration="15248000" />
+      <workItem from="1534916800681" duration="5372000" />
+      <workItem from="1534984720364" duration="5831000" />
+      <workItem from="1535334030304" duration="11545000" />
+      <workItem from="1535419587270" duration="14149000" />
+      <workItem from="1535506795327" duration="20977000" />
+      <workItem from="1535592421459" duration="18246000" />
+      <workItem from="1535680222243" duration="12543000" />
+      <workItem from="1535937172825" duration="15486000" />
+      <workItem from="1536024602354" duration="8505000" />
+      <workItem from="1536112540644" duration="11074000" />
+      <workItem from="1536196243750" duration="15137000" />
+      <workItem from="1536281996702" duration="13168000" />
+      <workItem from="1536461395700" duration="14422000" />
+      <workItem from="1536631966796" duration="9613000" />
+      <workItem from="1536713278141" duration="13437000" />
+      <workItem from="1536800777703" duration="15226000" />
+      <workItem from="1536888893426" duration="8523000" />
+      <workItem from="1537147812856" duration="751000" />
+      <workItem from="1537231689371" duration="2499000" />
+      <workItem from="1537320919619" duration="7027000" />
+      <workItem from="1537406611155" duration="8313000" />
+      <workItem from="1537836944993" duration="7385000" />
+      <workItem from="1537928217000" duration="8592000" />
+      <workItem from="1538012318664" duration="14572000" />
+      <workItem from="1538097988276" duration="16207000" />
+      <workItem from="1538183368420" duration="19214000" />
+      <workItem from="1538271401792" duration="2897000" />
+      <workItem from="1539132770195" duration="20682000" />
+      <workItem from="1539217807373" duration="12225000" />
+      <workItem from="1539304163194" duration="11362000" />
+      <workItem from="1539563929953" duration="9180000" />
+      <workItem from="1539651845283" duration="18266000" />
+      <workItem from="1539737255855" duration="17357000" />
+      <workItem from="1539823791632" duration="23199000" />
+      <workItem from="1539911303301" duration="20889000" />
+      <workItem from="1540168906589" duration="17756000" />
+      <workItem from="1540256489437" duration="16281000" />
+      <workItem from="1540343407423" duration="7247000" />
+      <workItem from="1540428233880" duration="9475000" />
+      <workItem from="1540514970554" duration="5465000" />
+      <workItem from="1540859863928" duration="7645000" />
+      <workItem from="1540949175262" duration="6960000" />
+      <workItem from="1541034401988" duration="7505000" />
+      <workItem from="1541393486419" duration="2897000" />
+      <workItem from="1541756411867" duration="96000" />
+      <workItem from="1541984761882" duration="5034000" />
+      <workItem from="1542069241372" duration="2750000" />
+      <workItem from="1542073800251" duration="6557000" />
+      <workItem from="1542157197525" duration="15133000" />
+      <workItem from="1542242839594" duration="11344000" />
+      <workItem from="1542330262749" duration="7697000" />
+      <workItem from="1542588778481" duration="15492000" />
+      <workItem from="1542674441759" duration="11330000" />
+      <workItem from="1542761739363" duration="6016000" />
+      <workItem from="1542846940170" duration="15104000" />
+      <workItem from="1542934368092" duration="12943000" />
+      <workItem from="1543192070295" duration="18431000" />
+      <workItem from="1543280134549" duration="1237000" />
+      <workItem from="1543366555013" duration="12403000" />
+      <workItem from="1543451958304" duration="13066000" />
+      <workItem from="1543538309269" duration="17370000" />
+      <workItem from="1543801841528" duration="8028000" />
+      <workItem from="1543822084336" duration="4406000" />
+      <workItem from="1543884392151" duration="18357000" />
+      <workItem from="1543971278520" duration="7523000" />
+      <workItem from="1544057695899" duration="6979000" />
+      <workItem from="1544142902658" duration="10715000" />
+      <workItem from="1544404244072" duration="10401000" />
+      <workItem from="1544492228628" duration="6695000" />
+      <workItem from="1544515393439" duration="1869000" />
+      <workItem from="1544575683182" duration="10532000" />
+      <workItem from="1544663626342" duration="9643000" />
+      <workItem from="1544750242306" duration="9507000" />
+      <workItem from="1545010721971" duration="4571000" />
+      <workItem from="1545097579387" duration="2440000" />
+      <workItem from="1545181899641" duration="2845000" />
+      <workItem from="1545271451011" duration="5182000" />
+      <workItem from="1545355900859" duration="5628000" />
+      <workItem from="1546497213109" duration="6785000" />
+      <workItem from="1546564210759" duration="9802000" />
+      <workItem from="1546821746879" duration="2429000" />
+      <workItem from="1546908343951" duration="2632000" />
+      <workItem from="1547000556432" duration="1559000" />
+      <workItem from="1547082970328" duration="1247000" />
+      <workItem from="1547090752379" duration="1138000" />
+      <workItem from="1547110553623" duration="1753000" />
+      <workItem from="1547437316324" duration="4364000" />
+      <workItem from="1547522094351" duration="2012000" />
+      <workItem from="1547599872058" duration="5385000" />
+      <workItem from="1547688516870" duration="594000" />
+      <workItem from="1547690849192" duration="8843000" />
+      <workItem from="1547773504240" duration="3660000" />
+      <workItem from="1548032318361" duration="990000" />
+      <workItem from="1548120348877" duration="592000" />
+      <workItem from="1548206056982" duration="5631000" />
+      <workItem from="1548381456070" duration="13501000" />
+      <workItem from="1550106537594" duration="340000" />
+      <workItem from="1550109947925" duration="7773000" />
+      <workItem from="1550194178491" duration="14437000" />
+      <workItem from="1550455255411" duration="10035000" />
+      <workItem from="1550537888996" duration="1007000" />
+      <workItem from="1550624438978" duration="630000" />
+      <workItem from="1550714810094" duration="591000" />
+      <workItem from="1551081601283" duration="5179000" />
+      <workItem from="1551144537799" duration="8552000" />
+      <workItem from="1551841765747" duration="5600000" />
+      <workItem from="1551951656146" duration="1764000" />
+      <workItem from="1552026217973" duration="801000" />
+      <workItem from="1552269820160" duration="2812000" />
+      <workItem from="1552351309429" duration="1523000" />
+      <workItem from="1552438269796" duration="10705000" />
+      <workItem from="1552548623837" duration="6602000" />
+      <workItem from="1552611842187" duration="15991000" />
+      <workItem from="1552872784092" duration="3581000" />
+      <workItem from="1552956114178" duration="1352000" />
+      <workItem from="1553045760707" duration="23000" />
+      <workItem from="1553063241340" duration="1037000" />
+      <workItem from="1553131497374" duration="4279000" />
+      <workItem from="1553222506424" duration="11683000" />
+      <workItem from="1553474801690" duration="15558000" />
+      <workItem from="1553561418204" duration="10134000" />
+      <workItem from="1553648423931" duration="5280000" />
+      <workItem from="1553736435556" duration="8466000" />
+      <workItem from="1553822344542" duration="7166000" />
+      <workItem from="1554081495621" duration="9224000" />
+      <workItem from="1554166353626" duration="19073000" />
+      <workItem from="1554253307052" duration="14619000" />
+      <workItem from="1554339656528" duration="13191000" />
+      <workItem from="1554685650407" duration="11820000" />
+      <workItem from="1554771985134" duration="15697000" />
+      <workItem from="1554858637626" duration="10141000" />
+      <workItem from="1554943807186" duration="14361000" />
+      <workItem from="1555030118858" duration="13655000" />
+      <workItem from="1555290695688" duration="1586000" />
+      <workItem from="1555376834886" duration="10065000" />
+      <workItem from="1555464947912" duration="6948000" />
+      <workItem from="1555549398665" duration="2531000" />
+      <workItem from="1555896145482" duration="13563000" />
+      <workItem from="1555983161868" duration="10226000" />
+      <workItem from="1556069169733" duration="1282000" />
+      <workItem from="1556156018732" duration="7300000" />
+      <workItem from="1556242266777" duration="11832000" />
+      <workItem from="1556421440556" duration="4684000" />
+      <workItem from="1556501212630" duration="15854000" />
+      <workItem from="1556589210102" duration="1301000" />
+      <workItem from="1557106603313" duration="5667000" />
+      <workItem from="1557141498564" duration="945000" />
+      <workItem from="1557283425837" duration="12916000" />
+      <workItem from="1557364789613" duration="15738000" />
+      <workItem from="1557451670399" duration="6074000" />
+      <workItem from="1557710335806" duration="13619000" />
+      <workItem from="1557798258021" duration="15544000" />
+      <workItem from="1557882741673" duration="1296000" />
+      <workItem from="1557885558527" duration="10481000" />
+      <workItem from="1557967731544" duration="11366000" />
+      <workItem from="1558058073836" duration="11309000" />
+      <workItem from="1558313908200" duration="14578000" />
+      <workItem from="1558400718392" duration="21178000" />
+      <workItem from="1558487420050" duration="4792000" />
+      <workItem from="1558573599016" duration="1895000" />
+      <workItem from="1558683073783" duration="3429000" />
+      <workItem from="1558919671955" duration="5029000" />
+      <workItem from="1559004690581" duration="4474000" />
+      <workItem from="1559093182288" duration="6351000" />
+      <workItem from="1560222206979" duration="8569000" />
+      <workItem from="1560304123389" duration="13749000" />
+      <workItem from="1560407893420" duration="5602000" />
+      <workItem from="1560475091546" duration="10509000" />
+      <workItem from="1560735103256" duration="12222000" />
+      <workItem from="1560824949542" duration="6118000" />
+      <workItem from="1561023314247" duration="4197000" />
+      <workItem from="1561085800975" duration="2008000" />
+      <workItem from="1561097242140" duration="4099000" />
+      <workItem from="1561346797530" duration="4741000" />
+      <workItem from="1561512060001" duration="14722000" />
+      <workItem from="1561598638628" duration="13854000" />
+      <workItem from="1561684716753" duration="897000" />
+      <workItem from="1561963285349" duration="4316000" />
+      <workItem from="1562032785848" duration="14465000" />
+      <workItem from="1562120803681" duration="3172000" />
+      <workItem from="1562205712926" duration="1495000" />
+      <workItem from="1562293334244" duration="3843000" />
+      <workItem from="1562549609200" duration="3871000" />
+      <workItem from="1562636255903" duration="13554000" />
+      <workItem from="1562723600297" duration="25682000" />
+      <workItem from="1562894754311" duration="71315000" />
+      <workItem from="1563844357737" duration="7930000" />
+      <workItem from="1563929587323" duration="14751000" />
+      <workItem from="1564016703038" duration="8935000" />
+      <workItem from="1564104220698" duration="1769000" />
+      <workItem from="1564368425479" duration="7969000" />
+      <workItem from="1564556045371" duration="4725000" />
+      <workItem from="1564621234392" duration="9695000" />
+      <workItem from="1565582288698" duration="4397000" />
+      <workItem from="1566195705268" duration="640000" />
+      <workItem from="1566281843904" duration="35000" />
+      <workItem from="1566291163213" duration="591000" />
+      <workItem from="1566790280523" duration="4597000" />
+      <workItem from="1566963652351" duration="3149000" />
+      <workItem from="1571706528912" duration="3131000" />
+      <workItem from="1571713661532" duration="649000" />
+      <workItem from="1573114276036" duration="711000" />
+      <workItem from="1573173753860" duration="994000" />
+      <workItem from="1573785215179" duration="888000" />
+      <workItem from="1574404537301" duration="775000" />
+      <workItem from="1575012164983" duration="1332000" />
+      <workItem from="1575506036872" duration="1325000" />
+      <workItem from="1575599205335" duration="817000" />
+      <workItem from="1576551928561" duration="2213000" />
+      <workItem from="1576717647267" duration="2857000" />
+      <workItem from="1577151661348" duration="588000" />
+      <workItem from="1577345695870" duration="596000" />
+      <workItem from="1577409911106" duration="657000" />
+      <workItem from="1577673713696" duration="596000" />
+      <workItem from="1578124871409" duration="1106000" />
+      <workItem from="1578532160505" duration="1105000" />
+      <workItem from="1579051812110" duration="610000" />
+      <workItem from="1580652618253" duration="2314000" />
+      <workItem from="1582766784097" duration="3825000" />
+      <workItem from="1585647525442" duration="576000" />
+      <workItem from="1586396013672" duration="642000" />
+      <workItem from="1586480141425" duration="449000" />
+      <workItem from="1586739870273" duration="138000" />
+      <workItem from="1586935480619" duration="618000" />
+      <workItem from="1586998223296" duration="582000" />
+      <workItem from="1587085309126" duration="695000" />
+      <workItem from="1587267909941" duration="597000" />
+      <workItem from="1587363719113" duration="1007000" />
+      <workItem from="1587524882022" duration="602000" />
+      <workItem from="1587602736435" duration="544000" />
+      <workItem from="1587690465174" duration="1205000" />
+      <workItem from="1587863501402" duration="979000" />
+      <workItem from="1587948829552" duration="711000" />
+      <workItem from="1588035200461" duration="962000" />
+      <workItem from="1588122257821" duration="738000" />
+      <workItem from="1588207753645" duration="575000" />
+      <workItem from="1588236350241" duration="604000" />
+      <workItem from="1589158699437" duration="1308000" />
+      <workItem from="1589770110767" duration="583000" />
+      <workItem from="1589939004268" duration="628000" />
+      <workItem from="1590024398007" duration="1343000" />
+      <workItem from="1590109507437" duration="1163000" />
+      <workItem from="1590389395579" duration="673000" />
+      <workItem from="1591509126443" duration="834000" />
+      <workItem from="1591664259963" duration="604000" />
+      <workItem from="1592099639052" duration="1173000" />
+      <workItem from="1592903701856" duration="560000" />
+      <workItem from="1594602457603" duration="1282000" />
+      <workItem from="1595812476458" duration="614000" />
+      <workItem from="1596613446867" duration="1016000" />
+      <workItem from="1596618697407" duration="595000" />
+      <workItem from="1597024764842" duration="3359000" />
+      <workItem from="1597646069732" duration="244000" />
+      <workItem from="1597647715202" duration="1171000" />
+      <workItem from="1597736681534" duration="788000" />
+      <workItem from="1597740192725" duration="731000" />
+      <workItem from="1597802603656" duration="277000" />
+      <workItem from="1597803301162" duration="12000" />
+      <workItem from="1597887793537" duration="6182000" />
+      <workItem from="1597902845500" duration="10320000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Testhighlighter_TestSearchByhighlighter - 2018.10.23 at 14h 54m 42s.xml">
+      <configuration name="Testhighlighter.TestSearchByhighlighter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Testhighlighter_TestSearchByhighlighter - 2018.10.23 at 15h 00m 11s.xml">
+      <configuration name="Testhighlighter.TestSearchByhighlighter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Testhighlighter_TestSearchByhighlighter - 2018.10.23 at 15h 00m 27s.xml">
+      <configuration name="Testhighlighter.TestSearchByhighlighter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Testhighlighter_TestSearchByhighlighter - 2018.10.23 at 15h 03m 47s.xml">
+      <configuration name="Testhighlighter.TestSearchByhighlighter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Testhighlighter_TestSearchByhighlighter - 2018.10.23 at 15h 03m 56s.xml">
+      <configuration name="Testhighlighter.TestSearchByhighlighter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Testhighlighter_TestSearchByhighlighter - 2018.10.23 at 15h 05m 00s.xml">
+      <configuration name="Testhighlighter.TestSearchByhighlighter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Testhighlighter_TestSearchByhighlighter - 2018.10.23 at 15h 05m 47s.xml">
+      <configuration name="Testhighlighter.TestSearchByhighlighter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Testhighlighter_TestSearchByhighlighter - 2018.10.23 at 15h 08m 05s.xml">
+      <configuration name="Testhighlighter.TestSearchByhighlighter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Testhighlighter_TestSearchByhighlighter - 2018.10.23 at 15h 08m 58s.xml">
+      <configuration name="Testhighlighter.TestSearchByhighlighter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Testhighlighter_TestSearchByhighlighter - 2018.10.23 at 15h 09m 16s.xml">
+      <configuration name="Testhighlighter.TestSearchByhighlighter" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3152876000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.241342" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39069265" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23717949" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34415585" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21741453" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39069265" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/rest/taskwarn/taskwarning.java</url>
+          <line>261</line>
+          <properties />
+          <option name="timeStamp" value="453" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/rest/taskwarn/taskwarning.java</url>
+          <line>255</line>
+          <properties />
+          <option name="timeStamp" value="454" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/taskcome/taskcome.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="487" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/setproject/setproject.java</url>
+          <line>439</line>
+          <properties />
+          <option name="timeStamp" value="508" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/setproject/setproject.java</url>
+          <line>398</line>
+          <properties />
+          <option name="timeStamp" value="509" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/attention/attention.java</url>
+          <line>490</line>
+          <properties />
+          <option name="timeStamp" value="520" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/setproject/setproject.java</url>
+          <line>689</line>
+          <properties />
+          <option name="timeStamp" value="521" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/setproject/setproject.java</url>
+          <line>659</line>
+          <properties />
+          <option name="timeStamp" value="522" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/attention/attention.java</url>
+          <line>204</line>
+          <properties />
+          <option name="timeStamp" value="528" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/taskwarn/taskwarning.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="531" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/taskcome/taskcome.java</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="560" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/taskcome/taskcome.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="561" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/taskcome/taskcome.java</url>
+          <line>118</line>
+          <properties />
+          <option name="timeStamp" value="564" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/newleader/newleader.java</url>
+          <line>224</line>
+          <properties />
+          <option name="timeStamp" value="587" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/newleader/newleader.java</url>
+          <line>168</line>
+          <properties />
+          <option name="timeStamp" value="590" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/MyBatis/Dao/UserDaoImpl.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="611" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/newleader/newleader.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="612" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/setproject/setproject.java</url>
+          <line>297</line>
+          <properties />
+          <option name="timeStamp" value="663" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/userCon/UserCon.java</url>
+          <line>126</line>
+          <properties />
+          <option name="timeStamp" value="666" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/newleader/newleader.java</url>
+          <line>221</line>
+          <properties />
+          <option name="timeStamp" value="667" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/setproject/setproject.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="681" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/userCon/UserCon.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="682" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/newleader/newleader.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="693" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/rest/RestUtils.java</url>
+          <line>742</line>
+          <properties />
+          <option name="timeStamp" value="707" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/taskwarn/taskwarning.java</url>
+          <line>125</line>
+          <properties />
+          <option name="timeStamp" value="719" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/lucene/luceneUtil.java</url>
+          <line>129</line>
+          <properties />
+          <option name="timeStamp" value="727" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/taskwarn/taskwarning.java</url>
+          <line>133</line>
+          <properties />
+          <option name="timeStamp" value="754" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/lucene/Analyzer/AnalyzerUtils.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="755" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/setproject/setproject.java</url>
+          <line>705</line>
+          <properties />
+          <option name="timeStamp" value="756" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/setproject/setproject.java</url>
+          <line>712</line>
+          <properties />
+          <option name="timeStamp" value="757" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/setproject/setproject.java</url>
+          <line>918</line>
+          <properties />
+          <option name="timeStamp" value="758" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/setproject/setproject.java</url>
+          <line>1071</line>
+          <properties />
+          <option name="timeStamp" value="762" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/setproject/setproject.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="763" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/setproject/setproject.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="764" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/handsituation/handsituation.java</url>
+          <line>131</line>
+          <properties />
+          <option name="timeStamp" value="768" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/lucene/highlighter/HighLighterUtil.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="772" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/indexCount/indexcount.java</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="773" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/indexCount/indexcount.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="774" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/unitview/unitview.java</url>
+          <line>152</line>
+          <properties />
+          <option name="timeStamp" value="788" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/filefinish/filefinish.java</url>
+          <line>270</line>
+          <properties />
+          <option name="timeStamp" value="799" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/filefinish/filefinish.java</url>
+          <line>282</line>
+          <properties />
+          <option name="timeStamp" value="804" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/unitview/unitview.java</url>
+          <line>302</line>
+          <properties />
+          <option name="timeStamp" value="806" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/unitview/unitview.java</url>
+          <line>301</line>
+          <properties />
+          <option name="timeStamp" value="807" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/unitview/unitview.java</url>
+          <line>478</line>
+          <properties />
+          <option name="timeStamp" value="808" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/indexCount/indexcount.java</url>
+          <line>141</line>
+          <properties />
+          <option name="timeStamp" value="813" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/tools/toolsUtils.java</url>
+          <line>144</line>
+          <properties />
+          <option name="timeStamp" value="814" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yc/Notice.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="822" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/notice/GetNotice.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="824" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/notice/GetNotice.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="825" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yc/Lead.java</url>
+          <line>137</line>
+          <properties />
+          <option name="timeStamp" value="826" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/notice/GetNotice.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="829" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/filefinish/filefinish.java</url>
+          <line>176</line>
+          <properties />
+          <option name="timeStamp" value="850" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/filefinish/filefinish.java</url>
+          <line>209</line>
+          <properties />
+          <option name="timeStamp" value="851" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/indextaskinfo/indextaskinfo.java</url>
+          <line>133</line>
+          <properties />
+          <option name="timeStamp" value="852" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yc/Home.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="854" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/indexCount/indexcount.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="855" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/unitview/unitview.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="856" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/unitview/unitview.java</url>
+          <line>288</line>
+          <properties />
+          <option name="timeStamp" value="857" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/attention/Indexattention.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="858" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/unitview/unitview.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="859" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yc/Lead.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="860" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yc/Lead.java</url>
+          <line>256</line>
+          <properties />
+          <option name="timeStamp" value="861" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yc/Lead.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="863" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/filefinish/filefinish.java</url>
+          <line>337</line>
+          <properties />
+          <option name="timeStamp" value="865" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/filefinish/filefinish.java</url>
+          <line>366</line>
+          <properties />
+          <option name="timeStamp" value="866" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/rest/RestUtils.java</url>
+          <line>815</line>
+          <properties />
+          <option name="timeStamp" value="870" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/attention/Indexattention.java</url>
+          <line>318</line>
+          <properties />
+          <option name="timeStamp" value="872" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/zqyjshenhe/zqyjshenhe.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="873" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/progressinfo/progressinfo.java</url>
+          <line>122</line>
+          <properties />
+          <option name="timeStamp" value="876" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/zqyjshenhe/zqyjshenhe.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="883" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/setproject/setproject.java</url>
+          <line>1359</line>
+          <properties />
+          <option name="timeStamp" value="884" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/zqyjshenhe/zqyjshenhe.java</url>
+          <line>139</line>
+          <properties />
+          <option name="timeStamp" value="885" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/progressinfo/progressinfo.java</url>
+          <line>149</line>
+          <properties />
+          <option name="timeStamp" value="886" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/progressinfo/progressinfo.java</url>
+          <line>164</line>
+          <properties />
+          <option name="timeStamp" value="887" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/setproject/setproject.java</url>
+          <line>310</line>
+          <properties />
+          <option name="timeStamp" value="889" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/filefinish/filefinish.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="902" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/filefinish/filefinish.java</url>
+          <line>165</line>
+          <properties />
+          <option name="timeStamp" value="903" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yc/Lead.java</url>
+          <line>428</line>
+          <properties />
+          <option name="timeStamp" value="904" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yc/Lead.java</url>
+          <line>412</line>
+          <properties />
+          <option name="timeStamp" value="905" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yc/Home.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="908" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/indextaskinfo/indextaskinfo.java</url>
+          <line>165</line>
+          <properties />
+          <option name="timeStamp" value="909" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yc/Task.java</url>
+          <line>340</line>
+          <properties />
+          <option name="timeStamp" value="910" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yc/Task.java</url>
+          <line>265</line>
+          <properties />
+          <option name="timeStamp" value="911" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yc/Task.java</url>
+          <line>291</line>
+          <properties />
+          <option name="timeStamp" value="912" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/indextaskinfo/indextaskinfo.java</url>
+          <line>217</line>
+          <properties />
+          <option name="timeStamp" value="913" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yc/Task.java</url>
+          <line>366</line>
+          <properties />
+          <option name="timeStamp" value="926" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/indextaskinfo/indextaskinfo.java</url>
+          <line>330</line>
+          <properties />
+          <option name="timeStamp" value="927" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/indextaskinfo/indextaskinfo.java</url>
+          <line>350</line>
+          <properties />
+          <option name="timeStamp" value="928" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/indextaskinfo/indextaskinfo.java</url>
+          <line>351</line>
+          <properties />
+          <option name="timeStamp" value="930" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/indextaskinfo/indextaskinfo.java</url>
+          <line>435</line>
+          <properties />
+          <option name="timeStamp" value="931" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/filefinish/filefinish.java</url>
+          <line>228</line>
+          <properties />
+          <option name="timeStamp" value="932" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/filefinish/filefinish.java</url>
+          <line>132</line>
+          <properties />
+          <option name="timeStamp" value="933" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/indextaskinfo/indextaskinfo.java</url>
+          <line>200</line>
+          <properties />
+          <option name="timeStamp" value="934" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/indexCount/indexcount.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="935" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/indextaskinfo/leaderindextaskinfo.java</url>
+          <line>303</line>
+          <properties />
+          <option name="timeStamp" value="936" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v9/dczq/indexTotal.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="938" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/userCon/UserCon.java</url>
+          <line>141</line>
+          <properties />
+          <option name="timeStamp" value="939" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/userCon/UserCon.java</url>
+          <line>133</line>
+          <properties />
+          <option name="timeStamp" value="940" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/userCon/UserCon.java</url>
+          <line>200</line>
+          <properties />
+          <option name="timeStamp" value="941" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/userCon/UserCon.java</url>
+          <line>214</line>
+          <properties />
+          <option name="timeStamp" value="945" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/handsituation/handsituation.java</url>
+          <line>319</line>
+          <properties />
+          <option name="timeStamp" value="948" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/handsituation/handsituation.java</url>
+          <line>865</line>
+          <properties />
+          <option name="timeStamp" value="950" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/handsituation/handsituation.java</url>
+          <line>879</line>
+          <properties />
+          <option name="timeStamp" value="951" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/dzdcCount/dzdcCount.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="952" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/dzdcCount/dzdcCount.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="953" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/qsData/QsData.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="954" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/qsData/QsData.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="955" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/qsData/QsData.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="956" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/alldown/alldown.java</url>
+          <line>311</line>
+          <properties />
+          <option name="timeStamp" value="957" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/alldown/alldown.java</url>
+          <line>309</line>
+          <properties />
+          <option name="timeStamp" value="958" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/RunThread/RunThread.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="960" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/alldown/alldown.java</url>
+          <line>343</line>
+          <properties />
+          <option name="timeStamp" value="962" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v9/dczq/indexTotal.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="963" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/setproject/setproject.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="964" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/setproject/setproject.java</url>
+          <line>117</line>
+          <properties />
+          <option name="timeStamp" value="965" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/yzgrest/setproject/setproject.java</url>
+          <line>127</line>
+          <properties />
+          <option name="timeStamp" value="966" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/zqyjshenhe/zqyjshenhe.java</url>
+          <line>131</line>
+          <properties />
+          <option name="timeStamp" value="968" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/ShData/jdxxtbShDataList.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="970" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v8/ShData/jdxxtbShDataList.java</url>
+          <line>125</line>
+          <properties />
+          <option name="timeStamp" value="972" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/indextaskinfo/indextaskinfo.java</url>
+          <line>153</line>
+          <properties />
+          <option name="timeStamp" value="973" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/indextaskinfo/indextaskinfo.java</url>
+          <line>261</line>
+          <properties />
+          <option name="timeStamp" value="976" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/Controller/AposeExportController.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="984" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/Utils/AposeUtils.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="985" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/Utils/AposeUtils.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="986" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="987" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="data.get(&quot;任务反馈时间&quot;)" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yc/Lead.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yc/Task.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yc/Home.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yc/Notice.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yc/Utils.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/notice/GetNotice.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/indextaskinfo/indextaskinfo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/indexCount/indexcount.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/upload/upload.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/rest/InspectorChosen.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v9/dczq/indexTotal.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/rest/Message.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yzg/tools/toolsUtils.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/rest/package.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/RunThread/RunThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding>
+            <element signature="e#618#619#0" expanded="false" />
+            <element signature="e#651#652#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/yc/Common.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/rest/CMSResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="284" column="33" lean-forward="false" selection-start-line="284" selection-start-column="33" selection-end-line="284" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/rest/R1RestAPI.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/v7/common/Common.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/rest/unifiedapproval.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/rest/taskstatistical.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/rest/worktask.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/RunThread/HttpThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/rest/UserRight.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/swagger/swaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/server/GPAMServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-default.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="37" column="48" lean-forward="false" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/resources/lib/aspose-slides-19.6.jar!/com/aspose/slides/DataTable.class" />
+    <entry file="jar://$PROJECT_DIR$/src/main/resources/lib/aspose-words-16.8.0.jar!/com/aspose/words/Range.class" />
+    <entry file="jar://$PROJECT_DIR$/src/main/resources/lib/aspose-words-16.8.0.jar!/com/aspose/words/BookmarkCollection.class" />
+    <entry file="jar://$PROJECT_DIR$/src/main/resources/lib/aspose-words-16.8.0.jar!/com/aspose/words/Bookmark.class" />
+    <entry file="jar://$PROJECT_DIR$/src/main/resources/lib/aspose-words-16.8.0.jar!/com/aspose/words/DocumentBuilder.class" />
+    <entry file="file://$PROJECT_DIR$/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="120" column="21" lean-forward="false" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar!/org/apache/commons/collections/map/AbstractHashedMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding>
+            <element signature="e#7295#7296#0" expanded="true" />
+            <element signature="e#7338#7339#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/license.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/aspose-words-16.8.0.jar!/com/aspose/words/DocumentBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="734" column="40" lean-forward="false" selection-start-line="734" selection-start-column="29" selection-end-line="734" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/rest/RestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="892" column="0" lean-forward="false" selection-start-line="892" selection-start-column="0" selection-end-line="892" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/awt/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="59" column="13" lean-forward="false" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/aspose-words-16.8.0.jar!/com/aspose/words/Font.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <element signature="e#4713#4714#0" expanded="true" />
+            <element signature="e#4754#4755#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/aspose-slides-19.6.jar!/com/aspose/slides/DataTable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#2160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/aspose-slides-19.6.jar!/com/aspose/slides/Chart.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="103" column="41" lean-forward="false" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/Utils/DownLoadFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="97" column="36" lean-forward="false" selection-start-line="97" selection-start-column="36" selection-end-line="97" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="469" column="0" lean-forward="false" selection-start-line="469" selection-start-column="0" selection-end-line="469" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/aspose-words-16.8.0.jar!/com/aspose/words/Document.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="260" column="0" lean-forward="false" selection-start-line="260" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/Controller/AposeExportController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/aspose-words-16.8.0.jar!/com/aspose/words/MailMerge.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="120" column="29" lean-forward="false" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/aspose-words-16.8.0.jar!/com/aspose/words/net/System/Data/DataTable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rf/cms/v3/Utils/AposeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="107" column="70" lean-forward="true" selection-start-line="107" selection-start-column="70" selection-end-line="107" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#844#864#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>GPAMS:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30798194" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (GPAMS)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30798194" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30798194" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|GPAMS</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30798194" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>aspose-slides-19.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30798194" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>重要类源代码说明</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+          <order>
+            <scope name="重要类源代码说明" />
+          </order>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

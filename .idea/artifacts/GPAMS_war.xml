@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="GPAMS:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="GPAMS-1.0.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="GPAMS:war exploded" />
+    </root>
+  </artifact>
+</component>
