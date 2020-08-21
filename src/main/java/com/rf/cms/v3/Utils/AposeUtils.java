@@ -143,13 +143,38 @@ public class AposeUtils {
         }
         doc.getMailMerge().executeWithRegions(dataTable);
         docBuilder = new DocumentBuilder(doc);
-        docBuilder.moveToCell(0,2,0,0);
-        Shape img1 = docBuilder.insertImage(AposeUtils.class.getClassLoader().getResourceAsStream("1.jpg"),
-                RelativeHorizontalPosition.MARGIN, 1, RelativeVerticalPosition.MARGIN,
-                1, 100, 125, WrapType.SQUARE);
-        img1.setWidth(100);
-        img1.setHeight(30);
-        img1.setHorizontalAlignment(HorizontalAlignment.CENTER);
+        for (int i=1;i<15;i++){
+            docBuilder.moveToCell(i-1,2,0,0);
+            Shape img1 = docBuilder.insertImage(AposeUtils.class.getClassLoader().getResourceAsStream("1.jpg"),
+                    RelativeHorizontalPosition.MARGIN, 1, RelativeVerticalPosition.MARGIN,
+                    1, 100, 125, WrapType.SQUARE);
+            img1.setWidth(370);
+            img1.setHeight(300);
+            img1.setHorizontalAlignment(HorizontalAlignment.CENTER);
+            docBuilder.moveToCell(i-1,2,1,0);
+            Shape img2 = docBuilder.insertImage(AposeUtils.class.getClassLoader().getResourceAsStream("2.jpg"),
+                    RelativeHorizontalPosition.MARGIN, 1, RelativeVerticalPosition.MARGIN,
+                    1, 100, 125, WrapType.SQUARE);
+            img2.setWidth(370);
+            img2.setHeight(300);
+            img2.setHorizontalAlignment(HorizontalAlignment.CENTER);
+        }
+
+//        docBuilder.moveToCell(0,2,0,0);
+//        Shape img1 = docBuilder.insertImage(AposeUtils.class.getClassLoader().getResourceAsStream("1.jpg"),
+//                RelativeHorizontalPosition.MARGIN, 1, RelativeVerticalPosition.MARGIN,
+//                1, 100, 125, WrapType.SQUARE);
+//        img1.setWidth(370);
+//        img1.setHeight(300);
+//        img1.setHorizontalAlignment(HorizontalAlignment.CENTER);
+//        docBuilder.moveToCell(0,2,1,0);
+//        Shape img2 = docBuilder.insertImage(AposeUtils.class.getClassLoader().getResourceAsStream("2.jpg"),
+//                RelativeHorizontalPosition.MARGIN, 1, RelativeVerticalPosition.MARGIN,
+//                1, 100, 125, WrapType.SQUARE);
+//        img2.setWidth(370);
+//        img2.setHeight(300);
+//        img2.setHorizontalAlignment(HorizontalAlignment.CENTER);
+
             response.setHeader("Content-Disposition", "attachment; filename=1234.docx");
         response.setContentType("application/octet-stream;charset=UTF-8");
 
