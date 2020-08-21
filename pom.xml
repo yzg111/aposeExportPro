@@ -154,6 +154,20 @@
 				</configuration>
 			</plugin>
 
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<configuration>
+					<nonFilteredFileExtensions>
+						<nonFilteredFileExtension>sql</nonFilteredFileExtension>
+						<nonFilteredFileExtension>xlsx</nonFilteredFileExtension>
+						<nonFilteredFileExtension>xls</nonFilteredFileExtension>
+						<nonFilteredFileExtension>docx</nonFilteredFileExtension>
+						<nonFilteredFileExtension>doc</nonFilteredFileExtension>
+					</nonFilteredFileExtensions>
+				</configuration>
+			</plugin>
+
 		</plugins>
 		<resources>
 			<resource>
@@ -174,6 +188,8 @@
 					<include>**/*.properties</include>
 					<include>**/*.txt</include>
 					<include>**/*.json</include>
+					<include>**/*.docx</include>
+					<include>**/*.*</include>
 				</includes>
 			</resource>
 		</resources>

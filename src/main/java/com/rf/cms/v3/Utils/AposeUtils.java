@@ -51,6 +51,9 @@ public class AposeUtils {
 
     public void Open() throws Exception                               //覆盖word里已有的Table
     {
+        if (!getLicense()) { // 验证License 若不验证则转化出的pdf文档会有水印产生
+            return ;
+        }
         doc = new Document();
         docBuilder = new DocumentBuilder(doc);
 
@@ -74,8 +77,9 @@ public class AposeUtils {
             return ;
         }
         System.out.println("文件路径:"+AposeUtils.class.getClassLoader().getResource("mod.docx").getPath());
-        doc =  new Document(AposeUtils.class.getClassLoader().getResourceAsStream("mod.docx"));
-        docBuilder = new DocumentBuilder(doc);
+        InputStream inputStream=AposeUtils.class.getClassLoader().getResourceAsStream("mod.docx");
+        doc =  new Document(inputStream);
+//        docBuilder = new DocumentBuilder(doc);
     }
 
     /// <summary>
@@ -101,11 +105,110 @@ public class AposeUtils {
             return ;
         }
         //3.1 填充单个文本域
-        String[] Flds = new String[]{"排序号", "评估内容", "检查地址", "检查情况","整改情况"}; //文本域
-        Object[] Vals = new Object[]{"标题", "测试",  "http://test.com"," word模板导出","很好"}; //值
+        String[] Flds = new String[]{"Title"}; //文本域
+        Object[] Vals = new Object[]{"标题"}; //值
         doc.getMailMerge().execute(Flds,Vals);
         com.aspose.words.net.System.Data.DataTable dataTable=
                 new com.aspose.words.net.System.Data.DataTable("All");
+        dataTable.getColumns().add("排序号"); // 0 增加三个列
+        dataTable.getColumns().add("评估内容"); // 1
+        dataTable.getColumns().add("检查地址"); // 2
+        dataTable.getColumns().add("检查情况"); // 2
+        dataTable.getColumns().add("整改情况"); // 2
+        dataTable.getColumns().add("检查图片"); // 2
+        dataTable.getColumns().add("整改图片"); // 2
+        // 向表格中填充数据
+        for (int i = 1; i < 15; i++) {
+            DataRow row = dataTable.newRow(); // 新增一行
+            row.set(0, i); // 根据列顺序填入数值
+            row.set(1, "评估内容"+i);
+            row.set(2, "检查地址"+i);
+            row.set(3, "检查情况"+i); // 根据列顺序填入数值
+            row.set(4, "整改情况"+i);
+//            Shape img = docBuilder.insertImage(AposeUtils.class.getClassLoader().getResourceAsStream("1.jpg"),
+//                    RelativeHorizontalPosition.MARGIN, 1, RelativeVerticalPosition.MARGIN,
+//                    1, 100, 125, WrapType.SQUARE);
+//            img.setWidth(100);
+//            img.setHeight(30);
+//            img.setHorizontalAlignment(HorizontalAlignment.CENTER);
+            row.set(5, "");
+//            Shape img1 = docBuilder.insertImage(AposeUtils.class.getClassLoader().getResourceAsStream("1.jpg"),
+//                    RelativeHorizontalPosition.MARGIN, 1, RelativeVerticalPosition.MARGIN,
+//                    1, 100, 125, WrapType.SQUARE);
+//            img1.setWidth(100);
+//            img1.setHeight(30);
+//            img1.setHorizontalAlignment(HorizontalAlignment.CENTER);
+            row.set(6, "");
+            dataTable.getRows().add(row); // 加入此行数据
+        }
+        doc.getMailMerge().executeWithRegions(dataTable);
+        docBuilder = new DocumentBuilder(doc);
+        docBuilder.moveToCell(0,2,0,0);
+        Shape img1 = docBuilder.insertImage(AposeUtils.class.getClassLoader().getResourceAsStream("1.jpg"),
+                RelativeHorizontalPosition.MARGIN, 1, RelativeVerticalPosition.MARGIN,
+                1, 100, 125, WrapType.SQUARE);
+        img1.setWidth(100);
+        img1.setHeight(30);
+        img1.setHorizontalAlignment(HorizontalAlignment.CENTER);
+            response.setHeader("Content-Disposition", "attachment; filename=1234.docx");
+        response.setContentType("application/octet-stream;charset=UTF-8");
+
+        OutputStream output = response.getOutputStream();
+        doc.save(output, SaveFormat.DOC);
+
+        output.flush();
+        output.close();
+
+    }
+
+    public void downloadnotmod(HttpServletResponse response) throws Exception {
+        if (!getLicense()) { // 验证License 若不验证则转化出的pdf文档会有水印产生
+            return ;
+        }
+        docBuilder.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+        docBuilder.getFont().setColor(java.awt.Color.RED);
+        docBuilder.writeln("联丰社区人居环境台账");
+        docBuilder.writeln("");
+        Table table = docBuilder.startTable();     //开始画Table
+        docBuilder.getRowFormat().setHeight(25);
+        docBuilder.insertCell();
+        docBuilder.getCellFormat().setVerticalAlignment(ParagraphAlignment.LEFT);
+        docBuilder.getCellFormat().setHorizontalMerge(CellMerge.PREVIOUS);
+        docBuilder.write("1");
+        docBuilder.endRow();
+        docBuilder.insertCell();
+        docBuilder.write("类别：评价内容");
+        docBuilder.endRow();
+        docBuilder.insertCell();
+        Shape img = docBuilder.insertImage(AposeUtils.class.getClassLoader().getResourceAsStream("1.jpg")
+                , RelativeHorizontalPosition.MARGIN, 1, RelativeVerticalPosition.MARGIN,
+                1, 100, 125, WrapType.SQUARE);
+        img.setWidth(100);
+        img.setHeight(30);
+        img.setHorizontalAlignment(HorizontalAlignment.CENTER);
+        docBuilder.insertCell();
+        Shape img1 = docBuilder.insertImage(AposeUtils.class.getClassLoader().getResourceAsStream("2.jpg")
+                , RelativeHorizontalPosition.MARGIN, 1, RelativeVerticalPosition.MARGIN,
+                1, 100, 125, WrapType.SQUARE);
+        img1.setWidth(100);
+        img1.setHeight(30);
+        img1.setHorizontalAlignment(HorizontalAlignment.CENTER);
+        docBuilder.endRow();
+        docBuilder.insertCell();
+        docBuilder.write("检查地址：检查地址2 ");
+        docBuilder.endRow();
+        docBuilder.insertCell();
+        docBuilder.write("整改前");
+        docBuilder.insertCell();
+        docBuilder.write("整改后");
+        docBuilder.endRow();
+        docBuilder.insertCell();
+        docBuilder.write("检查情况：检查情况2");
+        docBuilder.insertCell();
+        docBuilder.write("整改情况：整改情况2");
+        docBuilder.endRow();
+        docBuilder.endTable();
+
         response.setHeader("Content-Disposition", "attachment; filename=1234.docx");
         response.setContentType("application/octet-stream;charset=UTF-8");
 
