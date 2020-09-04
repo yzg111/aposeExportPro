@@ -99,7 +99,8 @@ public class AposeExportController {
         AposeUtils aposeUtils=new AposeUtils();
         aposeUtils.OpenWithModFile();
 //        aposeUtils.downloadmodfile(response);
-        aposeUtils.downloadRealDataBymod(response,restUtils,map,ssoWebUrlJk,token);
+//        aposeUtils.downloadRealDataBymod(response,restUtils,map,ssoWebUrlJk,token);
+        aposeUtils.downloadRealDataBymodLocalImg(response,restUtils,map,ssoWebUrlJk,token);
 
 //        AposeUtils aposeUtils=new AposeUtils();
 //        aposeUtils.Open();

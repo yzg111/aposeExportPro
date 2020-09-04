@@ -433,6 +433,124 @@ public class AposeUtils {
 
     }
 
+    public  void downloadRealDataBymodLocalImg(HttpServletResponse response,
+                                       RestUtils restUtils,Map<String,Object>map,
+                                       String ssoWebUrlJk,String ssoWebToken) throws Exception {
+        JSONArray pxjsonArray=new JSONArray();
+        JSONObject pxjsonObject=new JSONObject();
+        pxjsonObject.put("attribute","排序号");
+        pxjsonObject.put("direction",-1);
+        pxjsonArray.add(pxjsonObject);
+        CMSResponse res=restUtils.getCiByAttr("报表数据",map,pxjsonArray);
+//        CMSResponse res=restUtils.getCiByAttr("报表数据",map);
+        System.out.println(res);
+        JSONObject jsonObject=new JSONObject((Map<String, Object>) res.getContent());
+        JSONArray jsonArray=jsonObject.getJSONArray("results");
+        List<JSONObject> jsonValues = new ArrayList<JSONObject>();
+        for (int i = 0; i < jsonArray.size(); i++) {
+            jsonValues.add(jsonArray.getJSONObject(i));
+        }
+        Collections.sort(jsonValues, new Comparator<JSONObject>() {
+            private static final String KEY_NAME = "排序号";
+            @Override
+            public int compare(JSONObject a, JSONObject b) {
+                int opx1=1000000;
+                int opx2=1000000;
+                // 这里是a、b需要处理的业务，需要根据你的规则进行修改。
+                JSONObject obj1=a.getJSONObject("dataFieldMap");
+                JSONObject obj2=b.getJSONObject("dataFieldMap");
+                if (obj1.get(KEY_NAME)!=null&&!"".equals(obj1.get(KEY_NAME))){
+                    opx1=Integer.parseInt(obj1.getString(KEY_NAME));
+                }
+                if (obj2.get(KEY_NAME)!=null&&!"".equals(obj2.get(KEY_NAME))){
+                    opx2=Integer.parseInt(obj2.getString(KEY_NAME));
+                }
+                if(opx1>opx2){
+                    return 1;
+                }
+                if(opx1<opx2){
+                    return -1;
+                }
+                return 0;
+            }
+        });
+        JSONArray sortedJsonArray = new JSONArray();
+        for (int i = 0; i < jsonValues.size(); i++) {
+            sortedJsonArray.add(jsonValues.get(i));
+        }
+        System.out.println(sortedJsonArray.toJSONString());
+        com.aspose.words.net.System.Data.DataTable dataTable=
+                new com.aspose.words.net.System.Data.DataTable("All");
+        dataTable.getColumns().add("自然村"); // 0 增加三个列
+        dataTable.getColumns().add("备注"); // 1
+        dataTable.getColumns().add("详细地址"); // 2
+        dataTable.getColumns().add("检查情况"); // 2
+        dataTable.getColumns().add("整改反馈"); // 2
+        dataTable.getColumns().add("检查图片"); // 2
+        dataTable.getColumns().add("整改图片"); // 2
+        dataTable.getColumns().add("排序号"); // 2
+        for (int i=0;i<sortedJsonArray.size();i++){
+            JSONObject jobject=sortedJsonArray.getJSONObject(i).getJSONObject("dataFieldMap");
+            DataRow row = dataTable.newRow(); // 新增一行
+            row.set(0, jobject.get("自然村")); // 根据列顺序填入数值
+            row.set(1, jobject.get("备注"));
+            row.set(2, jobject.get("详细地址"));
+            row.set(3, jobject.get("检查情况")); // 根据列顺序填入数值
+            row.set(4, jobject.get("整改反馈"));
+            row.set(5, "");
+            row.set(6, "");
+            row.set(7, jobject.get("排序号"));
+            dataTable.getRows().add(row); // 加入此行数据
+        }
+        doc.getMailMerge().executeWithRegions(dataTable);
+        docBuilder = new DocumentBuilder(doc);
+
+        for (int i=0;i<sortedJsonArray.size();i++){
+            JSONObject jobject=sortedJsonArray.getJSONObject(i).getJSONObject("dataFieldMap");
+            if(jobject.get("检查图片")!=null){
+                String[] tmp=jobject.get("检查图片").toString().split("/");
+                String filePath="/data1/upload"+tmp[1]+"/"+tmp[2];
+                File file = new File(filePath+"/"+tmp[3]);
+                if(file.exists()){
+                    docBuilder.moveToCell(i,3,0,0);
+                    Shape img1 = docBuilder.insertImage(filePath+"/"+tmp[3],
+                            RelativeHorizontalPosition.MARGIN, 1, RelativeVerticalPosition.MARGIN,
+                            1, 100, 125, WrapType.SQUARE);
+                    img1.setWidth(370);
+                    img1.setHeight(300);
+                    img1.setHorizontalAlignment(HorizontalAlignment.CENTER);
+                }
+            }
+
+            if(jobject.get("整改图片")!=null){
+                String[] tmp=jobject.get("整改图片").toString().split("/");
+                String filePath="/data1/upload"+tmp[1]+"/"+tmp[2];
+                File file = new File(filePath+"/"+tmp[3]);
+                if(file.exists()) {
+                    docBuilder.moveToCell(i,3,1,0);
+                    Shape img2 = docBuilder.insertImage(filePath+"/"+tmp[3],
+                            RelativeHorizontalPosition.MARGIN, 1, RelativeVerticalPosition.MARGIN,
+                            1, 100, 125, WrapType.SQUARE);
+                    img2.setWidth(370);
+                    img2.setHeight(300);
+                    img2.setHorizontalAlignment(HorizontalAlignment.CENTER);
+                }
+            }
+
+        }
+        response.setHeader("Content-Disposition", "attachment; filename=1234.docx");
+        response.setContentType("application/octet-stream;charset=UTF-8");
+
+        OutputStream output = response.getOutputStream();
+        doc.save(output, SaveFormat.DOC);
+
+        output.flush();
+        output.close();
+
+    }
+
+
+
     public void downloadnotmod(HttpServletResponse response) throws Exception {
         if (!getLicense()) { // 验证License 若不验证则转化出的pdf文档会有水印产生
             return ;
