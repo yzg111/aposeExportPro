@@ -1,5 +1,8 @@
 package com.rf.cms.v3.Utils;
 
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONException;
+import com.alibaba.fastjson.JSONObject;
 import com.aspose.slides.*;
 import com.aspose.slides.Chart;
 import com.aspose.slides.DataTable;
@@ -10,22 +13,32 @@ import com.aspose.words.SaveFormat;
 import com.aspose.words.Shape;
 import com.aspose.words.Table;
 import com.aspose.words.net.System.Data.*;
+import com.rf.cms.v3.RunThread.DownLoadFileThread;
+import com.rf.cms.v3.rest.CMSResponse;
+import com.rf.cms.v3.rest.RestUtils;
+import com.sun.image.codec.jpeg.JPEGCodec;
+import com.sun.image.codec.jpeg.JPEGImageDecoder;
 import org.apache.commons.collections.map.HashedMap;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Value;
 
+import javax.imageio.ImageIO;
 import javax.servlet.http.HttpServletResponse;
-import java.io.ByteArrayOutputStream;
-import java.io.InputStream;
-import java.io.OutputStream;
+import java.awt.image.BufferedImage;
+import java.io.*;
+import java.lang.reflect.Array;
 import java.util.*;
+import java.util.List;
 
 /**
  * com.rf.cms.v3.Utils 于2020/8/20 由Administrator 创建 .
  */
 public class AposeUtils {
+
     private Document doc;
     private DocumentBuilder docBuilder;
     private java.util.List<Map<String,String>> datas=new ArrayList<Map<String,String>>();
+    private List<String> paths=new ArrayList<>();
 
     public static boolean getLicense() {
         boolean result = false;
@@ -76,10 +89,19 @@ public class AposeUtils {
         if (!getLicense()) { // 验证License 若不验证则转化出的pdf文档会有水印产生
             return ;
         }
-        System.out.println("文件路径:"+AposeUtils.class.getClassLoader().getResource("mod.docx").getPath());
-        InputStream inputStream=AposeUtils.class.getClassLoader().getResourceAsStream("mod.docx");
+        System.out.println("文件路径:"+AposeUtils.class.getClassLoader().getResource("mod1.docx").getPath());
+        InputStream inputStream=AposeUtils.class.getClassLoader().getResourceAsStream("mod1.docx");
         doc =  new Document(inputStream);
 //        docBuilder = new DocumentBuilder(doc);
+    }
+
+    public void OpenWithTestFile() throws Exception {
+        if (!getLicense()) { // 验证License 若不验证则转化出的pdf文档会有水印产生
+            return ;
+        }
+        System.out.println("文件路径:"+AposeUtils.class.getClassLoader().getResource("test.docx").getPath());
+        InputStream inputStream=AposeUtils.class.getClassLoader().getResourceAsStream("test.docx");
+        doc =  new Document(inputStream);
     }
 
     /// <summary>
@@ -111,10 +133,10 @@ public class AposeUtils {
         com.aspose.words.net.System.Data.DataTable dataTable=
                 new com.aspose.words.net.System.Data.DataTable("All");
         dataTable.getColumns().add("排序号"); // 0 增加三个列
-        dataTable.getColumns().add("评估内容"); // 1
-        dataTable.getColumns().add("检查地址"); // 2
+        dataTable.getColumns().add("备注"); // 1
+        dataTable.getColumns().add("详细地址"); // 2
         dataTable.getColumns().add("检查情况"); // 2
-        dataTable.getColumns().add("整改情况"); // 2
+        dataTable.getColumns().add("整改反馈"); // 2
         dataTable.getColumns().add("检查图片"); // 2
         dataTable.getColumns().add("整改图片"); // 2
         // 向表格中填充数据
@@ -176,6 +198,231 @@ public class AposeUtils {
 //        img2.setHorizontalAlignment(HorizontalAlignment.CENTER);
 
             response.setHeader("Content-Disposition", "attachment; filename=1234.docx");
+        response.setContentType("application/octet-stream;charset=UTF-8");
+
+        OutputStream output = response.getOutputStream();
+        doc.save(output, SaveFormat.DOC);
+
+        output.flush();
+        output.close();
+
+    }
+
+    public  void downloadRealDataBymod(HttpServletResponse response,
+                                       RestUtils restUtils,Map<String,Object>map,
+                                       String ssoWebUrlJk,String ssoWebToken) throws Exception {
+        JSONArray pxjsonArray=new JSONArray();
+        JSONObject pxjsonObject=new JSONObject();
+        pxjsonObject.put("attribute","排序号");
+        pxjsonObject.put("direction",-1);
+        pxjsonArray.add(pxjsonObject);
+        CMSResponse res=restUtils.getCiByAttr("报表数据",map,pxjsonArray);
+//        CMSResponse res=restUtils.getCiByAttr("报表数据",map);
+        System.out.println(res);
+        JSONObject jsonObject=new JSONObject((Map<String, Object>) res.getContent());
+        JSONArray jsonArray=jsonObject.getJSONArray("results");
+        List<JSONObject> jsonValues = new ArrayList<JSONObject>();
+        for (int i = 0; i < jsonArray.size(); i++) {
+            jsonValues.add(jsonArray.getJSONObject(i));
+        }
+        Collections.sort(jsonValues, new Comparator<JSONObject>() {
+            // You can change "Name" with "ID" if you want to sort by ID
+            private static final String KEY_NAME = "排序号";
+
+            @Override
+            public int compare(JSONObject a, JSONObject b) {
+                int opx1=10000;
+                int opx2=10000;
+                    // 这里是a、b需要处理的业务，需要根据你的规则进行修改。
+                    JSONObject obj1=a.getJSONObject("dataFieldMap");
+                    JSONObject obj2=b.getJSONObject("dataFieldMap");
+                    if (obj1.get(KEY_NAME)!=null&&!"".equals(obj1.get(KEY_NAME))){
+                        opx1=Integer.parseInt(obj1.getString(KEY_NAME));
+                    }
+                    if (obj2.get(KEY_NAME)!=null&&!"".equals(obj2.get(KEY_NAME))){
+                        opx2=Integer.parseInt(obj2.getString(KEY_NAME));
+                    }
+                    if(opx1>opx2){
+                        return 1;
+                    }
+                    if(opx1<opx2){
+                        return -1;
+                    }
+                    return 0;
+
+                // if you want to change the sort order, simply use the following:
+                // return -valA.compareTo(valB);
+            }
+        });
+        JSONArray sortedJsonArray = new JSONArray();
+        for (int i = 0; i < jsonValues.size(); i++) {
+            sortedJsonArray.add(jsonValues.get(i));
+        }
+        System.out.println(sortedJsonArray.toJSONString());
+        com.aspose.words.net.System.Data.DataTable dataTable=
+                new com.aspose.words.net.System.Data.DataTable("All");
+        dataTable.getColumns().add("自然村"); // 0 增加三个列
+        dataTable.getColumns().add("备注"); // 1
+        dataTable.getColumns().add("详细地址"); // 2
+        dataTable.getColumns().add("检查情况"); // 2
+        dataTable.getColumns().add("整改反馈"); // 2
+        dataTable.getColumns().add("检查图片"); // 2
+        dataTable.getColumns().add("整改图片"); // 2
+        dataTable.getColumns().add("排序号"); // 2
+        for (int i=0;i<sortedJsonArray.size();i++){
+            JSONObject jobject=sortedJsonArray.getJSONObject(i).getJSONObject("dataFieldMap");
+            DataRow row = dataTable.newRow(); // 新增一行
+            row.set(0, jobject.get("自然村")); // 根据列顺序填入数值
+            row.set(1, jobject.get("备注"));
+            row.set(2, jobject.get("详细地址"));
+            row.set(3, jobject.get("检查情况")); // 根据列顺序填入数值
+            row.set(4, jobject.get("整改反馈"));
+            row.set(5, "");
+            row.set(6, "");
+            row.set(7, jobject.get("排序号"));
+            dataTable.getRows().add(row); // 加入此行数据
+        }
+        doc.getMailMerge().executeWithRegions(dataTable);
+        docBuilder = new DocumentBuilder(doc);
+//        DownLoadFile.getInputStream(ssoWebUrlJk+"/cms/v1/files/transform?uri=/2020/07/5f0c0ae7e4b0293d5cfe16c1.jpg&access-token="+ssoWebToken);
+        for (int i=0;i<sortedJsonArray.size();i++){
+            JSONObject jobject=sortedJsonArray.getJSONObject(i).getJSONObject("dataFieldMap");
+            if(jobject.get("检查图片")!=null){
+                String[] tmp=jobject.get("检查图片").toString().split("/");
+                String filePath=AposeUtils.class.getClassLoader().getResource("").getPath()+tmp[1]+"/"+tmp[2];
+                File file = new File(filePath+"/"+tmp[3]);
+                if(file.exists()&&file.length()==0){
+                    file.delete();
+                }
+                DownLoadFileThread downLoadFileThread=new DownLoadFileThread(ssoWebUrlJk+"/cms/v1/files/transform?uri="
+                        +jobject.get("检查图片")+"&access-token=Bearer%20"+ssoWebToken,
+                        filePath,tmp[3]);
+                downLoadFileThread.start();
+            }
+            if(jobject.get("整改图片")!=null){
+                String[] tmp=jobject.get("整改图片").toString().split("/");
+                String filePath=AposeUtils.class.getClassLoader().getResource("").getPath()+tmp[1]+"/"+tmp[2];
+                File file = new File(filePath+"/"+tmp[3]);
+                if(file.exists()&&file.length()==0){
+                    file.delete();
+                }
+                DownLoadFileThread downLoadFileThread=new DownLoadFileThread(ssoWebUrlJk+"/cms/v1/files/transform?uri="
+                        +jobject.get("整改图片")+"&access-token=Bearer%20"+ssoWebToken,
+                        filePath,tmp[3]);
+                downLoadFileThread.start();
+            }
+//            Thread.sleep(1000);
+        }
+        if(sortedJsonArray.size()>50){
+            Thread.sleep(1000*100);
+        }else {
+            Thread.sleep(1000*40);
+        }
+//        Thread.sleep(2000*jsonArray.size());
+
+        for (int i=0;i<sortedJsonArray.size();i++){
+            JSONObject jobject=sortedJsonArray.getJSONObject(i).getJSONObject("dataFieldMap");
+            if(jobject.get("检查图片")!=null){
+                String[] tmp=jobject.get("检查图片").toString().split("/");
+                String filePath=AposeUtils.class.getClassLoader().getResource("").getPath()+tmp[1]+"/"+tmp[2];
+//                String imgflie=DownLoadFile.downloadFileFromUrlByname(ssoWebUrlJk+"/cms/v1/files/transform?uri="+jobject.get("检查图片")+"&access-token=Bearer%20"+ssoWebToken
+//                ,filePath,tmp[3]);
+
+
+//            File targetFile = new File(filePath);
+//            if (!targetFile.exists()) {
+//                targetFile.mkdirs();
+//
+//            }
+//                File file = new File(filePath+"/"+tmp[3]);
+//                if(!file.exists()){
+//                    FileOutputStream out = new FileOutputStream(filePath+"/"+tmp[3]);
+//
+//                    ByteArrayOutputStream output = new ByteArrayOutputStream();
+//
+//                    byte[] buffer = new byte[1024];
+//                    int length;
+//
+//                    while ((length = imgs.read(buffer)) > 0) {
+//                        output.write(buffer, 0, length);
+//                    }
+//                    byte[] context=output.toByteArray();
+//                    out.write(output.toByteArray());
+//                    imgs.close();
+//                    out.close();
+//                } else {
+//                    imgs.close();
+//                }
+//                Shape img1 = docBuilder.insertImage(imgs,
+//                        RelativeHorizontalPosition.MARGIN, 1, RelativeVerticalPosition.MARGIN,
+//                        1, 100, 125, WrapType.SQUARE);
+                File file = new File(filePath+"/"+tmp[3]);
+                if(file.exists()&&file.length()>0){
+                        docBuilder.moveToCell(i,3,0,0);
+                        Shape img1 = docBuilder.insertImage(AposeUtils.class.getClassLoader().getResourceAsStream(jobject.get("检查图片").toString().substring(1)),
+                                RelativeHorizontalPosition.MARGIN, 1, RelativeVerticalPosition.MARGIN,
+                                1, 100, 125, WrapType.SQUARE);
+                        img1.setWidth(370);
+                        img1.setHeight(300);
+                        img1.setHorizontalAlignment(HorizontalAlignment.CENTER);
+
+                }else {
+//                    paths.add(filePath+"/"+tmp[3]);
+                    file.delete();
+                }
+            }
+
+            if(jobject.get("整改图片")!=null){
+                String[] tmp=jobject.get("整改图片").toString().split("/");
+                String filePath=AposeUtils.class.getClassLoader().getResource("").getPath()+tmp[1]+"/"+tmp[2];
+//                String imgzg=DownLoadFile.downloadFileFromUrlByname(ssoWebUrlJk+"/cms/v1/files/transform?uri="+jobject.get("整改图片")+"&access-token=Bearer%20"+ssoWebToken,
+//                        filePath,tmp[3]);
+
+//                File targetFile = new File(filePath);
+//                if (!targetFile.exists()) {
+//                    targetFile.mkdirs();
+//
+//                }
+//                File file = new File(filePath+"/"+tmp[3]);
+//                if(!file.exists()){
+//                    FileOutputStream out = new FileOutputStream(filePath+"/"+tmp[3]);
+//
+//                    ByteArrayOutputStream output = new ByteArrayOutputStream();
+//
+//                    byte[] buffer = new byte[1024];
+//                    int length;
+//
+//                    while ((length = imgzg.read(buffer)) > 0) {
+//                        output.write(buffer, 0, length);
+//                    }
+//                    byte[] context=output.toByteArray();
+//                    out.write(output.toByteArray());
+//                    imgzg.close();
+//                    out.close();
+//                } else {
+//                    imgzg.close();
+//                }
+                File file = new File(filePath+"/"+tmp[3]);
+//                System.out.println(filePath+"/"+tmp[3]+":"+file.length());
+                if(file.exists()&&file.length()>0) {
+                        docBuilder.moveToCell(i,3,1,0);
+                        Shape img2 = docBuilder.insertImage(AposeUtils.class.getClassLoader().getResourceAsStream(jobject.get("整改图片").toString().substring(1)),
+                                RelativeHorizontalPosition.MARGIN, 1, RelativeVerticalPosition.MARGIN,
+                                1, 100, 125, WrapType.SQUARE);
+//                Shape img2 = docBuilder.insertImage(imgzg,
+//                        RelativeHorizontalPosition.MARGIN, 1, RelativeVerticalPosition.MARGIN,
+//                        1, 100, 125, WrapType.SQUARE);
+                        img2.setWidth(370);
+                        img2.setHeight(300);
+                        img2.setHorizontalAlignment(HorizontalAlignment.CENTER);
+                }else {
+//                    paths.add(filePath+"/"+tmp[3]);
+                    file.delete();
+                }
+            }
+
+        }
+        response.setHeader("Content-Disposition", "attachment; filename=1234.docx");
         response.setContentType("application/octet-stream;charset=UTF-8");
 
         OutputStream output = response.getOutputStream();
